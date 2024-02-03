@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lilita+One&family=Lora:wght@500&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lilita+One&family=Lora:wght@500&family=Protest+Riot&family=Protest+Strike&family=Single+Day&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    border-radius: 25px;
+    padding: 60px;
+    background-color: #eff6ff;
+}
+h1{
+    text-align: center;
+    margin: 0px auto 50px auto;
+    width: 40%;
+    border-radius: 25px;
+    padding: 20px 10px;
+    background-color: #cbf3e0;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Protest Riot', sans-serif;
+}
+h2{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Lilita One', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Protest Riot', sans-serif;
+    font-family: 'Protest Strike', sans-serif;
+    font-family: 'Single Day', cursive;
+}
+#add-btn{
+    font-size: 25px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: #bc7c63;
+    color: white;
+}
+.input-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-section div{
+    display: flex;
+    align-items: center;
+}
+label{
+    font-size: 20px;
+    margin-right: 5px;
+}
+input{
+    font-size: 15px;
+    padding: 3px;
+    font-family: sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+
+th {
+background-color: #fe646f;
+color: white;
+}
+
+tfoot td {
+font-weight: bold;
+}
+.delete-btn{
+    font-size: 15px;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #bc7c63;
+}
